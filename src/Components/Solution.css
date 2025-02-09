@@ -1,0 +1,33 @@
+.s-card{
+    max-width: 400px;
+}
+.get-btn{
+    width: max-content;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 12px;
+}
+
+.last-card {
+    position: relative;
+    background-color: #1eb8ff; /* Base background color */
+    overflow: hidden; /* Ensure no image overflow */
+  }
+  
+  /* Adding the image as an overlay */
+  .last-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://cdn-ilcopaj.nitrocdn.com/SqdrBQtjNUbxctBlqRexKvFrKgjWTcTG/assets/images/optimized/rev-1ceca6e/takdevs.com/wp-content/uploads/2024/08/10.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8; /* Control image visibility */
+    pointer-events: none; /* Allow interactions with content under the image */
+  }
+  
+  

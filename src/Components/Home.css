@@ -1,0 +1,11 @@
+.background-overlay{
+    background: 
+  linear-gradient(rgba(176, 199, 230, 0.8), rgba(176, 199, 230, 0.8)), /* #B0C7E6 with 80% opacity */
+  url("https://cdn-ilcopaj.nitrocdn.com/SqdrBQtjNUbxctBlqRexKvFrKgjWTcTG/assets/images/optimized/rev-1ceca6e/takdevs.com/wp-content/uploads/2024/07/BG1-T.png");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 170vh !important;
+       
+}

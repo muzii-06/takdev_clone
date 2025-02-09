@@ -1,0 +1,16 @@
+html{
+    overflow-y: hidden !important;
+    /* overflow-x: hidden !important; */
+}
+body{
+    overflow-y: hidden !important;
+    /* overflow-x: hidden !important; */
+}
+.background-overlay{
+    background-image: url("https://cdn-ilcopaj.nitrocdn.com/SqdrBQtjNUbxctBlqRexKvFrKgjWTcTG/assets/images/optimized/rev-1ceca6e/takdevs.com/wp-content/uploads/2024/07/BG1-T.png") !important;
+    /* background-size: contain;
+    opacity: .3;
+    transition: background .3s, border-radius .3s, opacity .3s; */
+    height: 100vh !important;
+    /* width: 100vw !important; */
+}

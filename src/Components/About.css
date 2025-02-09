@@ -1,0 +1,44 @@
+.font_desc{
+    font-size: 14px;
+}
+.car{
+    max-width: 400px;
+}
+.font_more{
+    color: #2F10CF ;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    /* padding: 0 35px !important; */
+}
+.outerline{
+    width:130px;
+    height: 3px;
+    background-color: #DEE0FF;
+    margin-left: 20px;
+    overflow-x: hidden !important;
+}
+.new:hover .inner-line{
+    /* width:130px; */
+    /* cursor: pointer; */
+    transform:translateX(0%) ;
+    background-color: black;
+    z-index: 1111 !important;
+    /* height: 2px; */
+    
+
+}
+
+
+.inner-line{
+    width:130px;
+    height: 3px;
+    transform: translateX(-100%);
+    transition: all 0.8s;
+    /* transform: translateX(-50%); */
+    
+   
+
+    
+    /* z-index: 1111 !important; */
+}
