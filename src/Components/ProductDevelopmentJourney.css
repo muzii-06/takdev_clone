@@ -1,0 +1,110 @@
+
+  .journey-container {
+    position: relative;
+    background-color: #242627; /* Base background color */
+    overflow: hidden; /* Ensure no image overflow */
+  }
+  
+  /* Adding the image as an overlay */
+  .journey-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://cdn-ilcopaj.nitrocdn.com/SqdrBQtjNUbxctBlqRexKvFrKgjWTcTG/assets/images/optimized/rev-1ceca6e/takdevs.com/wp-content/uploads/2024/07/Vector-Smart-Object1-01.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3; /* Control image visibility */
+    pointer-events: none; /* Allow interactions with content under the image */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.6); /* Grey overlay */
+    z-index: 0;
+  }
+  
+  .subheading, .main-heading, .description, .journey-title, .carousel {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .subheading {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a0a0a0;
+  }
+  
+  .main-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: #c0c0c0;
+  }
+  
+  .journey-title {
+    /* font-size: 20px; */
+    background-color: rgba(31, 32, 33, 0.5);
+    padding: 40px 100px 40px 250px;
+    width: 40%;
+    border-radius: 30px 30px 0 0;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 20px 0;
+  }
+  
+  .p-card {
+    background: rgba(44, 44, 46, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+  }
+  
+  .p-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .view-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    background: #007bff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .view-more:hover {
+    background: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 28px;
+    }
+  
+    .p-card {
+      min-width: 90%;
+    }
+  }
+  

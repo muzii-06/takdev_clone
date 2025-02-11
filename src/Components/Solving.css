@@ -1,0 +1,55 @@
+.industry-card {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin: 10px 10px;
+    width: max-content;
+    padding: 4px;
+   
+  }
+  
+  .industry-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .view-all {
+    color: #4a4aff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .view-all:hover {
+    text-decoration: underline;
+  }
+  
+  .industry-card-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    
+  }
+  
+  @media (max-width: 1250px) {
+    .industry-card-wrapper {
+      width: max-content;
+      padding: 0 !important;
+    }
+    .card-image{
+        width: 40px;
+    }
+  }
+  
+  @media (max-width: 765px) {
+    .industry-card-wrapper {
+      width: 100%;
+    }
+    .industry-card
+    {
+        width: 100%;
+        padding: 0 !important;
+        justify-content: start;
+    }
+  }

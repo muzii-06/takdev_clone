@@ -1,12 +1,13 @@
 import React from 'react'
 import SolutionCard from './SolutionCard'
 import { solution_data } from '../data/solution_data'
+import Text from './Text'
 
 const Solution = () => {
   return (
     <>
     <div className="container-fluid p-5 ">
-        <p style={{ width: 'max-content', fontSize:'12px', }} className='bg-white  rounded-2 m-0 px-2 py-1 '>What we do</p>
+        <Text text_data={"What we do"} />
         <h2 className='mt-5 display-5 fw-bold'>Solutions at TAK Devs</h2>
         <div className="row  justify-content-lg-around">
            
